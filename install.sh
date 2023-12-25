@@ -102,7 +102,7 @@ Username: $socksUser
 Password: $socksPass
 EOF
  fi
- cat ~/socks5.txt | nc termbin.com 9999 > /tmp/walwal.txt
+ #cat ~/socks5.txt | nc termbin.com 9999 > /tmp/walwal.txt
  echo -e " Your SOCKS5 Information Online: $(tr -d '\0' </tmp/walwal.txt)"
  echo -e ""
 }
